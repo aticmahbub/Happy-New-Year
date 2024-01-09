@@ -1,21 +1,31 @@
 /* Shared styles */
 
 /* text */
-.text-Merriweather{
+.text-Merriweather {
     font-family: 'Merriweather', serif;
 
-}.text-Inter{
-    font-family: 'Inter', sans-serif;
-font-family: 'Merriweather', serif;
 }
 
+.text-Inter {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+}
+
+header{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+/* banner styles */
 .banner-section{
+    
     background-image: url(../images/Banner\ Image.png);
-    width: 1320px;
-height: 600px;
-flex-shrink: 0;
+    background-repeat: no-repeat;
+    height: 600px;
+
 }
 .banner-heading-intro{
+    padding-top: 180px;
+
     color: #FFF;
 text-align: center;
 font-family: Merriweather;
@@ -25,6 +35,8 @@ font-weight: 400;
 line-height: normal;
 }
 .banner-heading{
+    padding-left: 350px;
+    padding-right: 350px;
     color: #FFF;
 text-align: center;
 font-family: Merriweather;
@@ -32,4 +44,67 @@ font-size: 72px;
 font-style: normal;
 font-weight: 900;
 line-height: 95px; /* 131.944% */
+}
+
+/* discount */
+.discount-section{
+    align-items: center;
+    text-align: center;
+}
+.disc-65{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 88px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.disc-text{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.disc-img{
+    width: 302.9px;
+height: 200px;
+}
+/* midnight-section */
+.midnight-section{
+    display: flex;
+background-image: url(../images/Vectorrr.png);
+background-repeat: no-repeat;
+}
+.mid-intro{
+    color: #FFF;
+font-family: Merriweather;
+font-size: 64px;
+font-style: normal;
+font-weight: 900;
+line-height: 88px; /* 137.5% */
+letter-spacing: 7.04px;
+}
+
+.mid-text{
+    color: rgba(255, 255, 255, 0.80);
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+.mid-img{
+    width: 100%;
+
+}
+.mid-right{
+    margin-right: 130px;
+
+}
+.mid-left{
+    padding-left: 125px;
 }
