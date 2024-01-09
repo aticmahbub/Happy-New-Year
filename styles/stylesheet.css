@@ -1,0 +1,35 @@
+/* Shared styles */
+
+/* text */
+.text-Merriweather{
+    font-family: 'Merriweather', serif;
+
+}.text-Inter{
+    font-family: 'Inter', sans-serif;
+font-family: 'Merriweather', serif;
+}
+
+.banner-section{
+    background-image: url(../images/Banner\ Image.png);
+    width: 1320px;
+height: 600px;
+flex-shrink: 0;
+}
+.banner-heading-intro{
+    color: #FFF;
+text-align: center;
+font-family: Merriweather;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.banner-heading{
+    color: #FFF;
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: 95px; /* 131.944% */
+}
